@@ -17,7 +17,7 @@ echo checking condition
         
         echo "Valid product key found. System starting installation."
         #bash <( curl -k https://olp-license-bucket-2020.s3.ap-south-1.amazonaws.com/olp-install.sh )
-        bash <( curl -k https://raw.githubusercontent.com/w3servicesdotnet/OpenLitePanel/master/install.sh )
+        
         else
         
         echo "$LICENSE_KEY is not valid product key."
