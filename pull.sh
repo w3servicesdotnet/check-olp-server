@@ -9,5 +9,8 @@ wget -q -O /scripts/certbot $GITRAW/scripts/certbot
 wget -q -O /scripts/createdb $GITRAW/scripts/createdb
 wget -q -O /usr/bin/lsws $GITRAW/scripts/lsws
 
+sed -n -i -e 's/\r$//' /scripts/*
+sed -n -e 's/^M$//' /scripts/*
+
 chmod +x /usr/bin/lsws
 chmod +x /scripts/*
