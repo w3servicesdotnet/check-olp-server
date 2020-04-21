@@ -16,7 +16,7 @@ echo checking condition
         if [ $LICENSE_KEY == $KEY ] ; then
         
         echo "Valid product key found. System starting installation."
-        #bash <( curl -k https://olp-license-bucket-2020.s3.ap-south-1.amazonaws.com/olp-install.sh )
+        
         
         else
         
