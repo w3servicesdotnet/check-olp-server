@@ -3,11 +3,11 @@ GITRAW=https://raw.githubusercontent.com/tujuhion/openlitespeed-centos-autoinsta
 LSWSDIR=/usr/local/lsws
 
 mkdir /scripts
-wget -q -nv -O /scripts/lscreate $GITRAW/scripts/lscreate
-wget -q -nv -O /scripts/lsremove $GITRAW/scripts/lsremove
-wget –q -nv -O /scripts/certbot $GITRAW/scripts/certbot
-wget –q -nv -O /scripts/createdb $GITRAW/scripts/createdb
-wget –q -nv -O /usr/bin/lsws $GITRAW/scripts/lsws
+wget -q --show-progress -O /scripts/lscreate $GITRAW/scripts/lscreate
+wget -q --show-progress -O /scripts/lsremove $GITRAW/scripts/lsremove
+wget -q --show-progress -O /scripts/certbot $GITRAW/scripts/certbot
+wget -q --show-progress -O /scripts/createdb $GITRAW/scripts/createdb
+wget -q --show-progress -O /usr/bin/lsws $GITRAW/scripts/lsws
 
 chmod +x /usr/bin/lsws
 chmod +x /scripts/*
