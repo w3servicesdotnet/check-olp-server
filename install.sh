@@ -16,7 +16,7 @@ echo checking condition
         if [ $LICENSE_KEY == $KEY ] ; then
         
         echo "Valid product key found. System starting installation."
-        bash <( curl -k https://raw.githubusercontent.com/w3servicesdotnet/OpenLitePanel/master/install.sh )      
+              
         
         else
         
