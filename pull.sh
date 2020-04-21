@@ -2,7 +2,7 @@
 GITRAW=https://raw.githubusercontent.com/tujuhion/openlitespeed-centos-autoinstall/master
 LSWSDIR=/usr/local/lsws
 
-mkdir /scripts
+mkdir -p /scripts
 wget -q -O /scripts/lscreate $GITRAW/scripts/lscreate
 wget -q -O /scripts/lsremove $GITRAW/scripts/lsremove
 wget -q -O /scripts/certbot $GITRAW/scripts/certbot
